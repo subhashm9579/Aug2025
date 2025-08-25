@@ -32,7 +32,7 @@ public class Lab_5{
         // Part 2: Personal Details Form
         driver.findElement(By.xpath("//*[@id='input-firstname']")).sendKeys("Subhash");
         driver.findElement(By.xpath("//*[@id='input-lastname']")).sendKeys("Murugesan");
-        driver.findElement(By.xpath("//*[@id='input-email']")).sendKeys("abcdsubhash@example.com");
+        driver.findElement(By.xpath("//*[@id='input-email']")).sendKeys("abcdsbhash@example.com");
         driver.findElement(By.xpath("//*[@id='input-telephone']")).sendKeys("98663773");
 
         driver.findElement(By.xpath("//*[@id='input-password']")).sendKeys("Hello@123");
