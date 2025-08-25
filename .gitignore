@@ -1,1 +1,18 @@
-/target/
+# macOS junk
+.DS_Store
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Build/Output folders
+bin/
+target/
+
+
+
+
+
+
+
