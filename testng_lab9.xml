@@ -4,25 +4,14 @@
   <test thread-count="5" name="ChromeTest">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="pac1.TC009_TestNG"/>
-      <class name="pac1.TC009_TestNG2"/>
+      <class name="pac1.Lab_9"/>
     </classes>
   </test> <!-- Test -->
   
   <test thread-count="5" name="EdgeTest">
   <parameter name="browser" value="edge"></parameter>
     <classes>
-      <class name="pac1.TC009_TestNG"/>
-      
+      <class name="pac1.Lab_9"/>
     </classes>
   </test><!-- Test -->
-  
-    <test thread-count="5" name="FireFoxTest">
-  <parameter name="browser" value="firefox"></parameter>
-    <classes>
-      <class name="pac1.TC009_TestNG"/>
-      
-    </classes>
-  </test><!-- Test -->
-  
 </suite> <!-- Suite -->
